@@ -69,7 +69,7 @@ public class ActorMovements : MonoBehaviour
                                            deltaYPos,
                                            _actorTransform.position.z);
 
-    if (_jumpProgress >= 0.5f)
+    if (_jumpProgress >= 1f)
       _isJumping = false;
   }
 
